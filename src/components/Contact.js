@@ -12,8 +12,8 @@ function Contact() {
         message: ''
       });
     
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = () => {
+        //e.preventDefault();
         {/* --- METHOD TO SEND THE MAIL --- */}
         send(
                 'service_3jryg9l', /*service id */
@@ -27,6 +27,7 @@ function Contact() {
         .catch((err) => {
             console.log('FAILED...', err);
         });
+        alert('Thanks for contacting. I will get back to you.');
     };
     
     const handleChange = (e) => {

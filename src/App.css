@@ -90,7 +90,7 @@ nav a.active-class{
 
 #rowFooter {
   padding: 25px 50px;
-  margin: 0px 0px 45px calc((100% - 980px) * 0.5);
+  /* margin: 0px 0px 45px calc((100% - 980px) * 0.5); */
 }
 
 a.social{
@@ -288,8 +288,8 @@ a.linkedin {
 }
 
 #rowHome{
-  margin-left: 12px;
-  margin-right: 12px;
+  /* margin-left: 12px;
+  margin-right: 12px; */
   width: 507px;
   height: 163px;
 }

@@ -1,38 +1,295 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+:root{
+  --primary-color: black;
+}
+body{
+  font-family: "KoHo", sans-serif !important;
+  background-color: #f8f9fa !important;
+}
+
+p{
+  font-size: large;
+}
+
+h1{
+  font-weight: bolder !important;
+}
+
+hr{
+  margin-left: -18% !important;
+  width: 135%;
+}
+
+.container{
+  padding-left: 0px !important;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  padding-right: 0px !important;
+}
+
+/****************************** NAVBAR **********************************/
+.containerHome{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.logo {
+  width: 9.25rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+
+.navbar-nav > li > a{
+  margin-right: 0.30rem;
+  margin-left: 0.40rem;
+  color: var(--primary-color) !important;
+}
+
+nav a.active-class{
+  color: salmon !important; 
+}
+
+#navbarNav .resume a:after {
+  color: var(--primary-color);
+  content: '|';
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#navbarNav .projects a:after {
+  color: var(--primary-color);
+  content: '|';
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+/************************************ Footer ****************************/
+.main-footer h3{
+  /* background-color: #fff; */
+  font-weight: 500px;
+}
+
+.containerFooter{
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#horizontal-line {
+  border-style: ridge;
+  border-width: 1px;
+  border-color: #6c757d; 
+  margin: 0px 40px 26px 40px;
+}
+
+#rowFooter {
+  padding: 25px 50px;
+  margin: 0px 0px 45px calc((100% - 980px) * 0.5);
+}
+
+a.social{
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+/* a.youtube {
+  color: #eb3223;
+} */
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: #E1306C;
+}
+
+a.linkedin {
+  color: #2867B2;
+}
+
+.footer-copyright{
+  text-align: right;
+}
+
+/* .footer-copyright li{
+  text-align: right;
+} */
+
+/************************************* Projects *********************************/
+.main-project{
+  background-color: #f8f9fa;
+  width: auto;
+  margin-left: 217.5px;
+  margin-right: 217.5px;
+}
+
+/* .containerProject{
+  margin-left: 217.5px;
+  margin-right: 217.5px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+} */
+
+.project-image{
+  width: 428px;
+  height: 331px;
+}
+
+/********************************* Resume **************************/
+/* .containerResume{
+  margin-left: 120.5px !important;
+} */
+
+.main-resume{
+  background-color: #f8f9fa;
+  width: auto;
+  margin-left: 217.5px;
+  margin-right: 217.5px;
+}
+
+/* .containerResume{
+  padding-left: 0px !important;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  padding-right: 0px !important;
+} */
+
+.row{
+  padding: 0px;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+
+.listResume li{
+  font-size: larger;
+}
+
+/****************************Contact***************************/
+.main-contact{
+  background-color: #f8f9fa;
+  width: auto;
+  margin-left: 217.5px;
+  margin-right: 217.5px;
+}
+
+/* .containerContact{
+  padding-left: 0px !important;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  padding-right: 0px !important;
+} */
+
+.inputC{
+  width: 210px;
+  height: 37px;
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+
+.textC{
+  width: 281px;
+  height: 124px;
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+
+.main-btn{
+  width: 138px !important;
+  height: 138px !important;
+  padding: 0px;
+  border: 1px solid white;
   text-align: center;
+  border-radius: 50%;
+  font-size: large;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.submitBtn{
+  /* margin-left: 75px; */
+  margin-top: 25px !important;
+  background-color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submitBtn:hover{
+  background-color: peachpuff;
+  transition: 0.5s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/**************************************HomePage***************************/
+
+.main-home{
+  background-color: #f8f9fa;
+  width: auto;
+  margin-left: 217.5px;
+  margin-right: 217.5px;
 }
 
-.App-link {
-  color: #61dafb;
+.profile-image{
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#homehone{
+  font-size: 10rem !important;
+}
+
+.resumeBtn{
+  /* margin-left: 75px; */
+  margin-top: 25px !important;
+  background-color: orange;
+}
+
+.resumeBtn:hover{
+  background-color: peachpuff;
+  transition: 0.5s ease;
+}
+
+.projectsBtn{
+  /* margin-left: 75px; */
+  margin-top: 25px !important;
+  background-color: green;
+}
+
+.projectsBtn:hover{
+  background-color: rgb(137, 243, 137);
+  transition: 0.5s ease;
+}
+
+.contactBtn{
+  /* margin-left: 75px; */
+  margin-top: 25px !important;
+  background-color: red;
+}
+
+.contactBtn:hover{
+  background-color: rgb(245, 143, 143);
+  transition: 0.5s ease;
+}
+
+#rowHome{
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 507px;
+  height: 163px;
 }

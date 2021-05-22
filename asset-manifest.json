@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personalportfolio/static/css/main.b534bd51.chunk.css",
+    "main.css": "/personalportfolio/static/css/main.0e0c6582.chunk.css",
     "main.js": "/personalportfolio/static/js/main.61fc3214.chunk.js",
     "main.js.map": "/personalportfolio/static/js/main.61fc3214.chunk.js.map",
     "runtime-main.js": "/personalportfolio/static/js/runtime-main.5fc48562.js",
@@ -12,7 +12,7 @@
     "static/js/3.24173f35.chunk.js.map": "/personalportfolio/static/js/3.24173f35.chunk.js.map",
     "index.html": "/personalportfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/personalportfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.b534bd51.chunk.css.map": "/personalportfolio/static/css/main.b534bd51.chunk.css.map",
+    "static/css/main.0e0c6582.chunk.css.map": "/personalportfolio/static/css/main.0e0c6582.chunk.css.map",
     "static/js/2.842db43c.chunk.js.LICENSE.txt": "/personalportfolio/static/js/2.842db43c.chunk.js.LICENSE.txt",
     "static/media/Book.5975f02b.jpeg": "/personalportfolio/static/media/Book.5975f02b.jpeg",
     "static/media/Cycle.9ee0136b.jpeg": "/personalportfolio/static/media/Cycle.9ee0136b.jpeg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.5fc48562.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.842db43c.chunk.js",
-    "static/css/main.b534bd51.chunk.css",
+    "static/css/main.0e0c6582.chunk.css",
     "static/js/main.61fc3214.chunk.js"
   ]
 }
